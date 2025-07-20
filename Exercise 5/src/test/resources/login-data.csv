@@ -1,0 +1,5 @@
+firstName,lastName,email,mobile,expected
+Nguyen,Van A,nva@example.com,0911222333,success
+,,invalid@example.com,0911222333,error
+Nguyen,Van A,invalidemail,0911222333,error
+Nguyen,Van A,nva@example.com,,error
